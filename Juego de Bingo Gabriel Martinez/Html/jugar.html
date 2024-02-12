@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/jugar.css">
+    <title>Juego De Bingo</title>
+</head>
+<body>
+    <div class="start-page">
+  <h1 class="title">Preparate para comenzar</h1>
+  <form>
+    <div class="input-container">
+      <label for="player1">Jugador 1:</label>
+      <input type="text" id="player1" name="player1" required>
+    </div>
+    <div class="input-container">
+      <label for="player2">Jugador 2:</label>
+      <input type="text" id="player2" name="player2" required>
+    </div>
+    <div class="input-container">
+      <label for="player3">Jugador 3:</label>
+      <input type="text" id="player3" name="player3">
+    </div>
+    <div class="input-container">
+      <label for="player4">Jugador 4:</label>
+      <input type="text" id="player4" name="player4">
+    </div>
+    
+    <div class="input-container">
+      <label for="player3">Tamaño del cartón </label>
+      <select class="selector" name="" id="carton">
+        <option value="3">3x3</option>
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+      </select>
+    </div>
+    <div class="divBtn">
+    <button type="submit" class="cancel-button" onclick="document.location = './index.html'">Cancelar</button>
+    <button type="submit" disabled id="btnStart" class="start-button" onclick="document.location = './start.html'">Comenzar juego</button>
+
+    </div>
+  </form>
+    </div>
+
+    <script src="../Js/jugar.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.bingo-instructions-page {
+    background: #00385b;
+    color: #fff;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bingo-instructions-page h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .instructions-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .instructions-container h2 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .instructions-container ul,
+  .instructions-container ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .instructions-container li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .back-button {
+    background-color: #4a86e8;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #356ec1;
+  }
+
+
+  @media (max-width: 768px) {
+    .bingo-instructions-page {
+        padding: 30px;
+    }
+
+    .bingo-instructions-page h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .instructions-container {
+        padding: 0 20px;
+    }
+
+    .instructions-container h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .instructions-container li {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .back-button {
+        padding: 12px 24px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
